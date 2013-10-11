@@ -1,0 +1,43 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+    <style name="main_buttons_lambda">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    
+    <style name="main_green_buttons" parent="main_buttons_lambda">
+        <item name="android:background">#C5E26D</item>
+    </style>
+    
+    <style name="main_last_green_button" parent="main_green_buttons">
+        <item name="android:layout_marginBottom">15dp</item>
+    </style>
+    
+    <style name="main_blue_buttons" parent="main_buttons_lambda">
+        <item name="android:background">#8AD5F0</item>
+    </style>
+    
+    <style name="main_first_blue_button" parent="main_blue_buttons">
+        <item name="android:layout_marginTop">15dp</item>
+    </style>
+
+</resources>

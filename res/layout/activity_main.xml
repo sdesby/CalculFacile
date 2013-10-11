@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/title_main"
+            android:textColor="#33B5E5"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/buttonRegle3"
+            style="@style/main_green_buttons"
+            android:text="@string/title_activity_regle_de_trois" />
+
+        <Button
+            android:id="@+id/buttonPourcentage"
+            style="@style/main_green_buttons"
+            android:text="@string/title_activity_pourcentage" />
+            
+            <Button
+            android:id="@+id/buttonTVA"
+            style="@style/main_last_green_button"
+            android:text="@string/title_activity_tva" />
+
+        <Button
+            android:id="@+id/buttonPerimetre"
+            style="@style/main_first_blue_button"
+            android:text="@string/title_activity_perimetre" />
+
+        <Button
+            android:id="@+id/buttonAire"
+            style="@style/main_blue_buttons"
+            android:text="@string/title_activity_aire" />
+
+        <Button
+            android:id="@+id/buttonVolume"
+            style="@style/main_blue_buttons"
+            android:text="@string/title_activity_volume" />
+    </LinearLayout>
+
+</LinearLayout>

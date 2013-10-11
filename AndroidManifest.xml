@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fr.sdesby.calculfacile"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="fr.sdesby.calculfacile.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="fr.sdesby.calculfacile.TVAActivity"
+            android:label="@string/title_activity_tva" >
+        </activity>
+        <activity
+            android:name="fr.sdesby.calculfacile.RegleDeTroisActivity"
+            android:label="@string/title_activity_regle_de_trois" >
+        </activity>
+        <activity
+            android:name="fr.sdesby.calculfacile.PerimetreActivity"
+            android:label="@string/title_activity_perimetre" >
+        </activity>
+        <activity
+            android:name="fr.sdesby.calculfacile.AireActivity"
+            android:label="@string/title_activity_aire" >
+        </activity>
+        <activity
+            android:name="fr.sdesby.calculfacile.VolumeActivity"
+            android:label="@string/title_activity_volume" >
+        </activity>
+        <activity
+            android:name="fr.sdesby.calculfacile.PourcentageActivity"
+            android:label="@string/title_activity_pourcentage" >
+        </activity>
+    </application>
+
+</manifest>

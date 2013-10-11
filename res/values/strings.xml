@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main -->
+    <string name="app_name">Calcul Facile</string>
+    <string name="ecran_accueil">Home</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_main">Choisissez votre calcul :</string>
+
+    <!-- Commun -->
+    <string name="reinitialiser">Réinitialiser</string>
+    <string name="interrogation">\?</string>
+    <string name="calculer">Calculer</string>
+    <string name="egal">=</string>
+
+    <!-- TVA -->
+    <string name="title_activity_tva">TVA</string>
+    <string name="editTextHorsTaxes">HT</string>
+    <string name="editTextTTC">TTC</string>
+    <string name="quelTauxAppliquer">Quel taux appliquer ?</string>
+    <string name="dixNeufSix">19,6%</string>
+    <string name="cinqCinq">5,5%</string>
+    <string name="sept">7%</string>
+    <string name="deuxUn">2,1%</string>
+    <string name="montantTVA">Montant de la TVA :</string>
+    <string name="euros">euros</string>
+
+
+    <!-- Regle de 3 -->
+    <string name="title_activity_regle_de_trois">Règle de 3</string>
+    <string name="si">Si</string>
+    <string name="alors">Alors</string>
+
+    <!-- Pourcentage -->
+    <string name="title_activity_pourcentage">Pourcentage</string>
+    <string name="pourcent">%</string>
+    <string name="de">de</string>
+    <string name="plus">+</string>
+    <string name="moins">-</string>
+    <string name="resultat">Résultat : </string>
+
+    <!-- Périmètre -->
+    <string name="title_activity_perimetre">Périmètre</string>
+
+    <!-- Aire -->
+    <string name="title_activity_aire">Aire</string>
+
+    <!-- Volume -->
+    <string name="title_activity_volume">Volume</string>
+
+
+    <!-- Perimetre, Aire, Volume -->
+    <string name="longueur">Longueur :</string>
+    <string name="largeur">Largeur :</string>
+    <string name="profondeur">Profondeur</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="cercle">Cercle</string>
+    <string name="disque">Disque</string>
+    <string name="diametre">Diametre :</string>
+
+</resources>
